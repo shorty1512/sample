@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Chat Room</title>
+  </head>
+  <body>
+    <div class="header">
+        <img src="./chatIcon.png"/>
+    
+    <h1>Let's Chit Chat</h1>
+    </div>
+    <h2>Chat History</h2>
+    <div id="chat"></div>
+    <form>
+      <input id="name" name="" type="text" placeholder="Your name here" oninput="manage()" />
+      <textarea id="chat-box" name="" id="" cols="30" rows="5" placeholder="Type a message..." oninput="manage()"></textarea>
+      <input id="btn" type="submit" value="SEND" disabled/>
+    </form>
+    <script src="./main.js"></script>
+  </body>
+</html>
